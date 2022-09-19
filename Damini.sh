@@ -6,5 +6,5 @@
 #!/bin/sh
 echo "Damini Trehan"
 touch myreadonly.txt
-echo ls-l > myreadonly.txt
-chmod u=rw,g=,o= myreadonly.txt
+ls-l >> myreadonly.txt
+chmod u=rwx,g=,o= myreadonly.txt
