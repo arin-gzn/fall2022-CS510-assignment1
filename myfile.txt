@@ -1,0 +1,9 @@
+hello
+hi
+hola
+what's up
+line 5
+line 6
+hello
+hello
+-- last line --
