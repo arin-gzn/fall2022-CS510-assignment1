@@ -4,7 +4,7 @@
 
 echo "Ahmad Rezaie"
 
-for line in "myfile.txt"
-do 
-	echo$line
-done
+while read -r line;
+do
+	echo "$line";
+done < myfile.txt
